@@ -1,0 +1,42 @@
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+
+.header-content{
+    display: flex;
+    height: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* nav{
+    display: flex;
+} */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

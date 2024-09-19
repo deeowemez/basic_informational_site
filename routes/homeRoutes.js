@@ -1,6 +1,6 @@
 const express = require('express');
 
-const aboutController = require('/home/aian/repos/basic-informational-site/controller/aboutController.js');
+const aboutController = require('../controller/homeController.js');
 
 const router = express.Router();
 
